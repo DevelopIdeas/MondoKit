@@ -12,9 +12,9 @@ spec.requires_arc = true
 spec.source = { git: "https://github.com/pollarm/MondoKit.git", tag: spec.version }
 spec.source_files = "MondoKit/**/*.{h,swift}"
 
-spec.dependency "SwiftyJSON", "~> 2.3"
-spec.dependency "SwiftyJSONDecodable", "~> 0.1"
-spec.dependency "Alamofire", "~> 3.0"
+spec.dependency "SwiftyJSON"
+spec.dependency "SwiftyJSONDecodable"
+spec.dependency "Alamofire"
 spec.dependency "KeychainAccess"
 
 end

@@ -13,7 +13,7 @@ spec.source = { git: "https://github.com/DevelopIdeas/MondoKit.git", tag: spec.v
 spec.source_files = "MondoKit/**/*.{h,swift}"
 
 spec.dependency 'SwiftyJSON', '~> 3.0'
-spec.dependency "SwiftyJSONDecodable"
+spec.dependency "SwiftyJSONDecodable", :git => "https://github.com/DevelopIdeas/SwiftyJSONDecodable.git"
 spec.dependency "Alamofire"
 spec.dependency "KeychainAccess"
 

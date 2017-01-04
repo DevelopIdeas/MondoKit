@@ -9,10 +9,10 @@ spec.social_media_url = "http://twitter.com/mikeypollard1"
 
 spec.platform = :ios, "9.0"
 spec.requires_arc = true
-spec.source = { git: "https://github.com/pollarm/MondoKit.git", tag: spec.version }
+spec.source = { git: "https://github.com/DevelopIdeas/MondoKit.git", tag: spec.version }
 spec.source_files = "MondoKit/**/*.{h,swift}"
 
-spec.dependency "SwiftyJSON"
+spec.dependency 'SwiftyJSON', '~> 3.0'
 spec.dependency "SwiftyJSONDecodable"
 spec.dependency "Alamofire"
 spec.dependency "KeychainAccess"
